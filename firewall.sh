@@ -9,7 +9,6 @@ _stop()
   $IPTABLES -Z
 }
 
-
 _start()
 {
   $IPTABLES -A INPUT -i lo -j ACCEPT
